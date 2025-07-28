@@ -61,10 +61,6 @@ a {
   color: #4d5ae5;
 }
 
-img {
-  display: block;
-}
-
 .header-logo {
   padding: 24px 0;
   margin-right: 76px;
@@ -169,7 +165,34 @@ img {
   background-color: #404bbf;
 }
 
+.main-features {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
+.features-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.features-li {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-list {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
