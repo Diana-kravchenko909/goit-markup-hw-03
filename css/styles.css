@@ -74,10 +74,6 @@ img {
   color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-
 .nav-list {
   display: flex;
   align-items: center;
@@ -121,17 +117,7 @@ img {
   color: #404bbf;
 }
 
-.page-footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-
-.footer-item {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  max-width: 264px;
-}
+/* main section 1 */
 
 .section-main {
   background-color: #2e2f42;
@@ -172,6 +158,8 @@ img {
 .main-button:focus {
   background-color: #404bbf;
 }
+
+/* features section 2 */
 
 .main-features {
   padding: 120px 0;
@@ -215,6 +203,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* our team section 3 */
 
 .our-team {
   background-color: #f4f4fd;
@@ -266,6 +256,8 @@ img {
   letter-spacing: 0.02em;
 }
 
+/* portfolio section 4 */
+
 .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -316,6 +308,8 @@ img {
   color: #434455;
 }
 
+/* footer */
+
 .page-footer {
   padding: 100px 0;
 }
@@ -323,4 +317,20 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
 }
